@@ -1,0 +1,7 @@
+
+let arr = [], l = document.links;
+for(var i=0; i<l.length; i++) {
+  arr.push(l[i].href);
+}
+
+console.log(arr.filter(item => item.includes('title') && item.includes('li_i')));
